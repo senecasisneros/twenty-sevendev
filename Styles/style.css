@@ -16,7 +16,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-.bg {
+.main {
   background-image: url("./images/computerImage.jpg");
   height: 100%;
   background-position: center;
@@ -29,12 +29,16 @@ html {
 .centered {
   font-size: 76px;
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
   position: absolute;
-  top: 25%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*------------------------------------*\
+NAVBAR
+\*------------------------------------*/
 
 .nav {
   width: 100%;
@@ -89,6 +93,72 @@ html {
 }
 
 /*------------------------------------*\
+ABOUT
+\*------------------------------------*/
+.aboutSec {
+  margin-top: 20px;
+}
+
+#aboutTitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+#designDevheader {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.smallsep {
+  height: 3px;
+  background-color: #444;
+  max-width: 30px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.aboutImage {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 450px;
+  margin-top: 20px;
+}
+
+/*------------------------------------*\
+SERVICES
+\*------------------------------------*/
+.servicesSec {
+  margin-top: 20px;
+}
+
+#servicesTitle {
+  text-align: center;
+  /* font-size: 20px; */
+  font-size: 40px;
+}
+
+.textDec {
+  text-align: center;
+  margin: 20px 50px;
+  font-size: 15px;
+}
+
+.one-third {
+  width: 28%;
+  float: left;
+  margin: 2% 0 3% 4%;
+  text-align: center;
+}
+
+.one-third i {
+  color: rgb(15, 131, 237);
+  font-size: 500%;
+  margin-bottom: 10%;
+}
+/*------------------------------------*\
 Media Queries
 \*------------------------------------*/
 
@@ -124,5 +194,12 @@ Media Queries
     border-radius: 5px 5px 0 0;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
+  }
+  .bg {
+    /* height: 50%; */
+  }
+  .centered {
+    /* margin-bottom: 10px; */
+    font-size: 43px;
   }
 }
