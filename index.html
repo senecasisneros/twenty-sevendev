@@ -23,9 +23,9 @@
         <li class="nav-item"><a href="#">Contact</a></li>
       </ul>
     </nav>
-
   </div>
 
+  <div class="clearfix"></div>
   <section class="aboutSec">
     <h2 id="aboutTitle">About Twenty-Seven Dev</h2>
     <div class="smallsep"></div>
@@ -33,7 +33,7 @@
     <p class='textDec'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     <img class="aboutImage" src="styles/images/design.jpg" alt="">
   </section>
-
+  <div class="clearfix"></div>
   <section class="servicesSec">
     <h2 id="servicesTitle">Services</h2>
     <div class="smallsep"></div>
@@ -55,7 +55,70 @@
     <h2>SEO</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </section>
+  <div class="clearfix"></div>
 
+  <section class="contact">
+    <h2 id="contactTitle">Contact Us</h2>
+    <div class="smallsep"></div>
+    <h3 id="contactText">We are available to answers any questions or provide a free quote!</h3>
+    <form id='contact' method="POST" action="http://formspree.io/gabbie1427@gmail.com">
+      <br>
+      <fieldset>
+        <input placeholder="Name" type="text" tabindex="1" name='name' required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Email Address" type="email" tabindex="2" name='_replyto' required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Phone Number" type="tel" tabindex="3" name='phone number' required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." tabindex="5" name='message' required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" value="Send" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </section>
+
+
+  <div class="clearfix"></div>
+
+  <section>
+    <a name="contactUs"></a>
+    <footer>
+      <div class="one-third">
+        <h3>Our Location</h3><br>
+        <div class="google-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106233.13773012382!2d-117.38781064655717!3d33.688616530168126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc9a2631993a33%3A0x715d4ca8aa0854d9!2sLake+Elsinore%2C+CA!5e0!3m2!1sen!2sus!4v1505253674236"></iframe>
+        </div>
+      </div>
+      <div class="one-third">
+        <h3 id="navigate">Navigate</h3><br><br>
+        <ul>
+          <li class="navItems"><a href="#"></a>About</li>
+          <li class="navItems"><a href="#"></a>Services</li>
+          <li class="navItems"><a href="#"></a>Portfolio</li>
+          <li class="navItems"><a href="#"></a>Contact</li>
+        </ul>
+
+      </div>
+      <div class="one-third">
+        <h3>Contact Us</h3><br><br>
+        <p class="footercontact">Twenty-Seven Dev<br>
+          <strong class="phone">951-775-7746</strong>
+          <br><br> Lake Elsinore CA, 92532 <br> twentysevendev@yahoo.com
+        </p><br>
+        <ul class="social">
+          <li><a href="#"><i class='fa fa-facebook'></i></a></li>
+          <li><a href="#"><i class='fa fa-google-plus'></i></a></li>
+          <li><a href="#"><i class='fa fa-twitter'></i></a></li>
+          <li><a href="#"><i class='fa fa-youtube'></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    <p id="copyright">&copy; Twenty-Seven Dev 2017 All rights reserved.</p>
+  </section>
 
 </body>
 <script src="scripts/main.js" charset="utf-8"></script>

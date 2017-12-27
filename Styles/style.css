@@ -36,6 +36,10 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.clearfix {
+  clear: both;
+}
+
 /*------------------------------------*\
 NAVBAR
 \*------------------------------------*/
@@ -158,6 +162,181 @@ SERVICES
   font-size: 500%;
   margin-bottom: 10%;
 }
+
+/*------------------------------------*\
+CONTACT
+\*------------------------------------*/
+.contact {
+  background-color: black;
+}
+
+#contactTitle {
+  text-align: center;
+  color: white;
+  /* font-size: 20px; */
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+#contactText {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  color: white;
+}
+
+#contact {
+  /* margin-top: 5%; */
+  text-align: center;
+}
+
+#contact h3 {
+  color: #f96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+}
+
+fieldset {
+  border: medium none !important;
+  /*margin: 0 0 10px;*/
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 75%;
+  /*border:1px solid #CCC;*/
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 90px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 25%;
+  border: none;
+  background: rgb(15, 131, 237);
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 11px;
+  font-size: 80%;
+  border-radius: 10px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #09c;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+/*------------------------------------*\
+Footer
+\*------------------------------------*/
+footer {
+  background-color: gray;
+  opacity: 0.9;
+  width: 100%;
+  padding: 1% 0;
+  overflow: auto;
+}
+
+footer h3 {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.footercontact {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 17px;
+}
+
+.phone {
+  color: black;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.social {
+  list-style-type: none;
+  margin: 3% 0;
+  padding: 0;
+  color: white;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 195%;
+  padding: 3%;
+}
+
+.social i:hover {
+  background: rgb(171, 187, 183);
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 70%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin-top: 5%;
+}
+
+.navItems {
+  list-style-type: none;
+  font-size: 17px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+#navigate {
+  margin-bottom: 10px;
+}
+
+#copyright {
+  text-align: center;
+}
+
 /*------------------------------------*\
 Media Queries
 \*------------------------------------*/
