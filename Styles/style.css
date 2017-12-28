@@ -68,13 +68,13 @@ NAVBAR
   display: inline-block;
   zoom: 1;
   list-style-type: none;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .nav-item a {
   display: block;
   padding: 15px 20px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -123,11 +123,16 @@ ABOUT
   margin-top: 15px;
 }
 
+/* .imageDiv {
+  width: 200px;
+  height: 120px;
+} */
+
 .aboutImage {
   display: block;
   margin: auto;
   width: 90%;
-  height: 450px;
+  height: auto;
   margin-top: 35px;
 }
 
@@ -156,17 +161,64 @@ SERVICES
 }
 
 .icons {
-  width: 75%;
+  width: 80%;
 }
 
 .one-third {
   width: 28%;
   float: left;
-  margin: 4% 0 0 4%;
+  margin: 1% 0 0 4%;
   text-align: center;
 }
 
 .one-third i {
+  color: rgb(15, 131, 237);
+  font-size: 500%;
+  margin-bottom: 10%;
+}
+
+/*------------------------------------*\
+Portfolio
+\*------------------------------------*/
+.mainPortDiv {
+  margin-bottom: 20px;
+}
+.portfolioSec {
+  margin-top: 20px;
+}
+
+#portfolioHeader {
+  text-align: center;
+  /* font-size: 20px; */
+  font-size: 60px;
+  margin-top: 60px;
+}
+
+.portfolioTitle {
+  margin: 20px;
+}
+
+.textDecPort {
+  text-align: center;
+  margin: 20px 50px;
+  font-size: 15px;
+}
+
+.iconsPort {
+  width: 70%;
+}
+
+.one-thirdPort {
+  text-align: center;
+  float: left;
+  margin: 4% 0 40px 30px;
+  /* width: 10px; */
+  /* margin: 0.5em;
+  padding: 0.5em; */
+  /* margin-top: 20px; */
+}
+
+.one-thirdPort i {
   color: rgb(15, 131, 237);
   font-size: 500%;
   margin-bottom: 10%;
@@ -287,8 +339,17 @@ footer h3 {
 
 .footercontact {
   text-align: center;
-  /* margin-top: 8%; */
+  margin-bottom: 8px;
   font-size: 17px;
+}
+
+.footerContactInfo {
+  margin-top: 50px;
+}
+
+.footercontactTitle {
+  margin-top: 45px;
+  font-size: 18px;
 }
 
 .phone {
@@ -299,7 +360,7 @@ footer h3 {
 
 .social {
   list-style-type: none;
-  margin: 3% 0;
+  margin-top: 5%;
   padding: 0;
   color: white;
 }
@@ -309,7 +370,7 @@ footer h3 {
 }
 
 .social i {
-  font-size: 195%;
+  font-size: 210%;
   padding: 3%;
 }
 
@@ -337,7 +398,7 @@ footer h3 {
   list-style-type: none;
   font-size: 17px;
   color: black;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 
 #navigate {
