@@ -278,7 +278,7 @@ fieldset {
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact textarea {
-  width: 75%;
+  width: 30%;
   /*border:1px solid #CCC;*/
   background: #fff;
   margin: 0 0 5px;
@@ -392,6 +392,22 @@ footer h3 {
   width: 100% !important;
   height: 100% !important;
   margin-top: 5%;
+}
+
+.google-maps1 {
+  position: relative;
+  padding-bottom: 70%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps1 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 50% !important;
+  /* margin-top: 5%; */
 }
 
 .navItems {
