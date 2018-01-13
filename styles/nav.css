@@ -5,7 +5,7 @@
 #headerLogo {
   color: #d84b6b;
   font-family: "Alegreya", serif;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .mainNav .navbar-brand {
@@ -16,7 +16,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 25px;
-  color: white !important;
+  color: black !important;
   text-align: center;
 }
 .mainNav .navbar-toggle {
@@ -30,7 +30,8 @@
 }
 
 .navbar {
-  margin-bottom: 0;
+  height: 90px;
+  margin-bottom: 0 !important;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -38,4 +39,8 @@
     font-size: 25px;
     margin-left: 40px;
   }
+}
+
+.navbar-inverse {
+  background-color: white !important;
 }
