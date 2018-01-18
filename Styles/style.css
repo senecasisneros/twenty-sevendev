@@ -204,7 +204,8 @@ fieldset {
   cursor: pointer;
   width: 25%;
   border: none;
-  background: rgb(15, 131, 237);
+  /* background: rgb(15, 131, 237); */
+  background: #d84b6b;
   color: #fff;
   margin: 0 0 5px;
   padding: 11px;
@@ -213,7 +214,8 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #09c;
+  background: white;
+  /* background: #09c; */
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;

@@ -16,7 +16,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 25px;
-  color: black !important;
+  /* color: black !important; */
+  color: black;
   text-align: center;
 }
 .mainNav .navbar-toggle {
@@ -39,8 +40,23 @@
     font-size: 25px;
     margin-left: 40px;
   }
+  nav {
+    border: none;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: white;
+  }
 }
 
 .navbar-inverse {
   background-color: white !important;
+}
+
+.navbar-inverse .navbar-toggle {
+  background: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  background: white;
+  margin-top: -8px;
 }

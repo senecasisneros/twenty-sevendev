@@ -7,12 +7,15 @@ svg text.blink {
   background-color: #000000;
   color: #ffffff;
   position: relative;
+
 }
 
-/* #tagi {
-width: 70%;
-margin: 250px auto;
-} */
+#tagi {
+  width: 100%;
+  /* margin: 250px auto; */
+  /* margin-left: -110px; */
+  margin-top: 0
+}
 
 @keyframes blink {
   0% {
@@ -165,4 +168,11 @@ margin: 250px auto;
 
 .st31 {
   font-size: 37px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  /* #tagi {
+    width: 50%;
+  } */
 }
